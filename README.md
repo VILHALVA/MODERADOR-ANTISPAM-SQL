@@ -21,32 +21,9 @@ Este bot foi projetado para gerenciar configurações de punição em grupos do 
 
 5. As interações com o banco de dados MySQL são tratadas através de funções como `save_punishment` e `get_punishment`, que salvam e recuperam informações sobre as punições configuradas para cada grupo.
 
-## COMO USAR?
-### BAIXANDO O PROJETO:
-**Passo 1:** Clone o repositório para o seu sistema local.
-
-```bash
-git clone https://github.com/VILHALVA/MODERADOR-ANTISPAM-SQL.git
-```
-
-**Passo 2:** Navegue até o diretório do projeto.
-
-```bash
-cd MODERADOR-ANTISPAM-SQL
-```
-
-**Passo 3:** Descompacte o arquivo ZIP (se você baixou manualmente):
-
-```bash
-unzip MODERADOR-ANTISPAM-SQL.zip
-```
-
-### EXECUTANDO O PROJETO:
+## EXECUTANDO O PROJETO:
 1. **Configuração do Banco de Dados:**
-
-   - Você deve importar o arquivo `DATABASE.sql` para o seu BANCO DE DADOS.
-
-   - Se você não estiver familiarizado com esses passos, confira nosso [curso completo de MYSQL](https://github.com/VILHALVA/CURSO-DE-MYSQL) para obter orientações detalhadas.
+   - Antes de executar o bot, é necessário importar o arquivo `DATABASE.sql`. Se não estiver familiarizado com o processo de importação, [confira este curso](https://github.com/VILHALVA/CURSO-DE-MYSQL) para orientações detalhadas.
 
 2. **Editar o código:**
    - Certifique-se de substituir "localhost", "seu_usuario" e "sua_senha" no arquivo `DB_CONNECTION.py` pelas informações corretas do seu banco de dados MySQL.
@@ -61,6 +38,8 @@ unzip MODERADOR-ANTISPAM-SQL.zip
 ```
    - Inicie o bot enviando o comando `/settings`. E configure a punição para o seu grupo clicando no botão inline.
 
-## CREDITOS:
+## SAIBA MAIS:
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
+- [FAÇA OS NOSSOS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
+
 
